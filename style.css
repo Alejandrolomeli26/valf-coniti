@@ -165,29 +165,31 @@ body {
       }
       
     
-    .agregar-carrito {
-        margin:10px 0;
-    }
-    
     .card {
         text-align: center;
         border: 1px solid #e1e1e195;
         background: rgba(255, 255, 255, 0.412);
     }
-    @media (min-width: 550px) {
-        .card {
-            text-align: left;
-        }
-    }
+
     .info-card  {
         padding: 10px 20px;
+        border: 2px solid black;
     }
     
+    .info-card img {
+        border: 2px solid black; 
+        width: 100%; 
+    }
     .info-card p, 
     .card h4 {
         margin-bottom: 5px;
     }
-    
+    .info-card p {
+        border: 2px solid black;
+        background-color: aqua;
+        width: 100%;
+
+    }
     
 
 
@@ -397,6 +399,45 @@ body {
         margin-top: 10px;
         
     }
+    /*Pagina Blog*/
+    main {
+        margin-left: -400px;
+        
+    }
+    .container-card {
+        margin-left: 0;
+        max-width: 1080px;
+        display: flex;
+
+      }
+      
+    
+    .card {
+        text-align: center;
+        border: 1px solid #e1e1e195;
+        background: rgba(255, 255, 255, 0.412);
+    }
+
+    .info-card  {
+        padding: 10px 20px;
+        border: 2px solid black;
+    }
+    
+    .info-card img {
+        border: 2px solid black; 
+        width: 100%; 
+    }
+    .info-card p, 
+    .card h4 {
+        margin-bottom: 5px;
+    }
+    .info-card p {
+        border: 2px solid black;
+        background-color: aqua;
+        width: 100%;
+
+    }
+    
 
 }
 
